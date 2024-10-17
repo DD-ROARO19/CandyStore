@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="48dp">
+
+            <TextView
+                android:id="@+id/text_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/nav_header_title"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/menu_gallery"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgDulce01"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginVertical="8dp"
+                android:clickable="true"
+                android:contentDescription="@string/dulce01"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/dulce01" />
+
+            <ImageView
+                android:id="@+id/imgDulce02"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginVertical="8dp"
+                android:clickable="true"
+                android:contentDescription="@string/dulce02"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/dulce02" />
+
+            <ImageView
+                android:id="@+id/imgDulce03"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginVertical="8dp"
+                android:clickable="true"
+                android:contentDescription="@string/dulce03"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/dulce03" />
+
+            <ImageView
+                android:id="@+id/imgDulce04"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginVertical="8dp"
+                android:clickable="true"
+                android:contentDescription="@string/dulce04"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/dulce04" />
+
+            <ImageView
+                android:id="@+id/imgDulce05"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginVertical="8dp"
+                android:clickable="true"
+                android:contentDescription="@string/dulce05"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/dulce05" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
